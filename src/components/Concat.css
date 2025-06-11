@@ -1,0 +1,23 @@
+.contact-section {
+    margin-bottom: 2rem;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin-bottom: 0.5rem;
+    color: #d72660;
+    font-size: 1.05rem;
+}
+
+.contact-section a {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+.contact-section a:hover {
+    color: #d72660;
+}

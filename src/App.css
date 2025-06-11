@@ -1,0 +1,25 @@
+.main-bg {
+    min-height: 100vh;
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.portfolio-container {
+    background: #fff;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(30, 41, 59, 0.08);
+    max-width: 540px;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    margin: 2rem 0;
+    border: 1px solid #e5e7eb;
+}
+
+@media (max-width: 600px) {
+    .portfolio-container {
+        padding: 1rem 0.5rem;
+    }
+}

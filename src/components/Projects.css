@@ -1,0 +1,37 @@
+.projects-section {
+    margin-bottom: 2rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-card {
+    background: #e0f2fe;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(30, 41, 59, 0.06);
+    padding: 1rem 1.2rem;
+    min-width: 220px;
+    flex: 1 1 220px;
+    color: #1e293b;
+    border: 1px solid #e5e7eb;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.project-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2563eb;
+    transition: color 0.2s;
+}
+
+.project-card:hover {
+    background: #2563eb;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.project-card:hover h3 {
+    color: #fff;
+}
